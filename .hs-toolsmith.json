@@ -1,0 +1,15 @@
+{
+  "hsToolsmith": true,
+  "title": "llm-rubric-eval-ts",
+  "pitch": "Run rubric-based LLM evals with reproducible datasets and provider-agnostic adapters.",
+  "language": "typescript",
+  "category": "Developer Tools",
+  "keyFeatures": [
+    "Rubric schema with typed scoring + explanations",
+    "Dataset versioning with content hashes and snapshots",
+    "Provider-agnostic adapters powered by your llm-chain interface",
+    "Deterministic eval runs (seed, temperature, retries, timeouts)",
+    "Markdown/JSON reports suitable for GitHub PR comments"
+  ],
+  "targetUsers": "TypeScript teams evaluating prompts/models across OpenAI/Anthropic/Gemini in CI."
+}
